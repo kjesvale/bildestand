@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": ["es2021", "dom"],
+        "module": "commonjs",
+        "target": "es2021",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
